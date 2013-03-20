@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ERP2QB.exe" version="1.0.0.5" publicKeyToken="348a429d2db41735" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ERP2QB" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ERP2QB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CookComputing.XmlRpcV2.dll" size="122880">
+      <assemblyIdentity name="CookComputing.XmlRpcV2" version="2.5.0.0" publicKeyToken="A7D6E17AA302004D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kfh7xcyIJJgR380TDMwsqQfu4tM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ERP2QB.exe" size="67072">
+      <assemblyIdentity name="ERP2QB" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KGUex0LmV7pviX2kJVnZCAPO9iM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ERP2QB.exe.config" size="1346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YhZQ+fSY4HsNvgDSvkCB4S6O60o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Eric-PC\Eric" issuerKeyHash="93883e457319d625ee725a1011e95409c930ecb1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>leLOC4ST94Qi2uncWRH1inY/MVg=</DigestValue></Reference></SignedInfo><SignatureValue>cRNihCmMCGusO6vdwWYNzwEMglXDcx7Xa+X1J1mtK2Oqc4vLr7O8p7CP6oxW+vjUtkLb/e4AC2hY5Gy4g2g7iPqQaG1oI70j5NR46JtHynq7SzmokEevWpW1menmEoyPAHAmduwfPKby1l5P8tRGv+rRNfwrAelEkuMr5jgWZig=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mcBvz5Bwa1bv71gkdFJbREsKSuvRhr3sta2blMZp2MVBeuHxX/i/6452qEMy3OQ5hFwV0YB+Aw3g2KuB5iabKDbJuqAe3t3uL2CxjTa4tVMHEAdvG2ibpeKaYXmAGM9l/RtD4NOBoprMbY43kJ2S1tLPZsm5XjuVLu6129Q2vbc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="58313f768af51159dce9da2284f793840bcee295" Description="" Url=""><as:assemblyIdentity name="ERP2QB.exe" version="1.0.0.5" publicKeyToken="348a429d2db41735" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Eric-PC\Eric</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gpH+XuYjqjszDaDI1+3GzlH6svk=</DigestValue></Reference></SignedInfo><SignatureValue>b60QENqCve4r2OOMFZO41Z+wkpdWTNMAzC/PGOwlOqsCiachsMCKjDhDgIs4Kauwf2CHpY/qaQCzSwOUOZ5LgJjOa/M5BKSP4igRuIqNSFgsEwb/S/w1Uve+PT68aT/EVo+4LSn4p0yW3ynhi0/faXNMRVrVEnq4RKvOYknwssQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mcBvz5Bwa1bv71gkdFJbREsKSuvRhr3sta2blMZp2MVBeuHxX/i/6452qEMy3OQ5hFwV0YB+Aw3g2KuB5iabKDbJuqAe3t3uL2CxjTa4tVMHEAdvG2ibpeKaYXmAGM9l/RtD4NOBoprMbY43kJ2S1tLPZsm5XjuVLu6129Q2vbc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQWbGiz10n65ZPYWD4faAuXTANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgARQByAGkAYwAtAFAAQwBcAEUAcgBpAGMwHhcNMTIwODEzMTEyODI2WhcNMTMwODEzMTcyODI2WjAjMSEwHwYDVQQDHhgARQByAGkAYwAtAFAAQwBcAEUAcgBpAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJnAb8+QcGtW7+9YJHRSW0RLCkrr0Ya97LWtm5TGadjFQXrh8V/4v+uOdqhDMtzkOYRcFdGAfgMN4NirgeYmmyg2ybqgHt7d7i9gsY02uLVTBxAHbxtom6XimmF5gBjPZf0bQ+DTgaKazG2ON5CdktbSz2bJuV47lS7utdvUNr23AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAYq0bEtD9H3leB+9kOh/3WEtELrFWLzlnOcqYP9DB2D80JJ2cSXRzvLoedMCaBWvxKuYn/8Ajh+fhS913E1Qi4uvYdjMFX1oTyJQ9npzfl66fqYNMd496k9JyF9WKxhhsx3dS3ROuE1SVEGVXippWyAjD//WBv763p/vYMrC0YEw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
