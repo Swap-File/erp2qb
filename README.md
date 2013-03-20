@@ -2,7 +2,7 @@ erp2qb
 ======
 erp2qb takes Customer Invoices from OpenERP and import them into QuickBooks as invoices. 
 
-It also has preliminary support for copying Supplier Invoices from OpenERP into QuickBooks as Purchase Orders.
+It also has preliminary support for importing Supplier Invoices from OpenERP into QuickBooks as Purchase Orders.
 
 Using erp2qb
 ======
