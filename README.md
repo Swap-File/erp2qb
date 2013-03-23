@@ -4,6 +4,8 @@ erp2qb takes Customer Invoices from OpenERP and import them into QuickBooks as i
 
 It also has preliminary support for importing Supplier Invoices from OpenERP into QuickBooks as Purchase Orders.
 
+You WILL want to customize how fields are mapped to suit your business, but this will get you started.
+
 Using erp2qb
 ======
 
